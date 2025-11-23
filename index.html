@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astra Linux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Astra Linux</h1>
+    <nav>
+        <a href="index.html">О системе</a>
+        <a href="features.html">Особенности</a>
+        <a href= "download.html">Скачать</a>
+        <a href="distributiv.html"> Дистрибутивы</a>
+        <a href="download2.html">Загрузка ОС</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>Что такое Astra Linux?</h2>
+      <p>Astra Linux — операционная система (ОС) специального назначения на базе ядра Linux, была создана для нужд органов государственного и военного управления и других учреждений, которые работают с информацией ограниченного доступа.
+        Разработка Astra Linux была начата в 2008 году АО «НПО РусБИТех» при участии Министерства обороны РФ. Встроенные средства защиты ОС разработаны совместно с Академией ФСБ России и Институтом системного программирования РАН.
+        В конце 2009 года впервые появилась свободно распространяемая версия ОС общего назначения Astra Linux Сommon Edition (релиз «Орёл»), репозиторий которой размещен в открытом доступе международной некоммерческой организации The Linux Foundation.
+        28 октября 2011 года вышел в свет релиз «Смоленск» Astra Linux Special Edition 1.2, а в 2013 году Astra Linux была принята на снабжение Минобороны России.</p>
+    </section>
+
+    <section id="features">
+      <h2>Особенности</h2>
+      <ul>
+        <li>Повышенная информационная безопасность</li>
+        <li>Совместимость с популярным ПО</li>
+        <li>Сертификация ФСТЭК и Минобороны</li>
+        <li>Поддержка серверных и рабочих версий</li>
+      </ul>
+    </section>
+
+    <section id="download">
+      <h2>Скачать Astra Linux</h2>
+      <p>Вы можете загрузить дистрибутив Astra Linux с официального сайта.</p>
+      <a class="button" href="https://astralinux.ru/" target="_blank">Перейти на сайт</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Astra Linux — защищённая операционная система</p>
+  </footer>
+
+  <script>
+    // автоматический год
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

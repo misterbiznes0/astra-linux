@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astra Linux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Astra Linux</h1>
+    <nav>
+        <a href="index.html">О системе</a>
+        <a href="features.html">Особенности</a>
+        <a href= "download.html">Скачать</a>
+        <a href="distributiv.html"> Дистрибутивы</a>
+        <a href="download2.html">Загрузка ОС</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>Как установить операционную систему Astra Linux?</h2>
+      <p>Astra Linux — российская операционная система, разработанная для обеспечения безопасности и защиты данных в государственных и корпоративных структурах.</p>
+    </section>
+
+    <section id="features">
+      <h2>Особенности</h2>
+      <ul>
+        <li>Повышенная информационная безопасность</li>
+        <li>Совместимость с популярным ПО</li>
+        <li>Сертификация ФСТЭК и Минобороны</li>
+        <li>Поддержка серверных и рабочих версий</li>
+      </ul>
+    </section>
+
+    <section id="download">
+      <h2>Скачать Astra Linux</h2>
+      <p>Вы можете загрузить дистрибутив Astra Linux с официального сайта.</p>
+      <a class="button" href="https://astralinux.ru/" target="_blank">Перейти на сайт</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Astra Linux — защищённая операционная система</p>
+  </footer>
+
+  <script>
+    // автоматический год
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
